@@ -1,0 +1,20 @@
+.cover__text {
+    display: flex;
+    margin: -41.2% auto;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .cover__text {
+        margin: -55%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__text {
+        margin: -50%;
+    }
+}

@@ -1,0 +1,33 @@
+@import url(__title/intro__title.css);
+@import url(__list/intro__list.css);
+@import url(__text/intro__text.css);
+@import url(__span/intro__span.css);
+
+.intro {
+    display:flex;
+    flex-direction: column;
+    margin: 92px 448px 0 148px;
+    min-width: 690px;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        margin: 92px 448px 0 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        margin: 88px 448px 0 24px;
+        min-width: 93.5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        display:grid;
+        grid-template-columns: minmax(288, 1fr);
+        margin: 64px 16px 0 16px;
+    }
+}
