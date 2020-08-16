@@ -9,12 +9,12 @@
 
 @media screen and (max-width: 767px) {
     .cover__text {
-        margin: -55%;
+        margin: -55% 0;
     }
 }
 
 @media screen and (max-width: 425px) {
     .cover__text {
-        margin: -50%;
+        margin: -50% 0;
     }
 }
