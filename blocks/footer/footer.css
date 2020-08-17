@@ -3,10 +3,12 @@
 @import url(__services/footer__services.css);
 
 .footer {
-    margin: 0 48px;
+    width:92.5%;
+    margin: 0 auto;
     display: flex;
     padding-bottom: 24px;
     justify-content: space-between;
+    max-width: 1280px;
 }
 
 @media screen and (max-width: 1023px) {
