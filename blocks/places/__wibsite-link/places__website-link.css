@@ -2,8 +2,9 @@
     color: #FFFFFF;
     font-size: 18px;
     line-height: 1.22;
+    align-self: flex-start;
 }
 
 .places__website-link:hover {
-    opacity:0.5;
+    opacity: 0.8;
 }

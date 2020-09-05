@@ -11,8 +11,3 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .intro__text {
-        min-width: fit-content;
-    }
-}

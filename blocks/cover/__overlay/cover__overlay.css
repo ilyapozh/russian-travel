@@ -1,7 +1,7 @@
 .cover__overlay {
     max-width: 1184px;
     min-height: 740px;
-    background-color: black;
+    background-color: #2A2C2F;
     opacity: 0.3;
     display: flex;
     position: relative;
