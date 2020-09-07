@@ -5,20 +5,15 @@
     line-height: 1.22;
     max-width: 360px;
     color: white;
+    position: relative;
+    z-index: 50;
 }
 
 @media screen and (max-width: 767px) {
     .cover__subtitle {
         max-width: 288px;
         font-size: 14px;
-        line-height: 1.05;
+        line-height: 1.2;
     }
 }
 
-@media screen and (max-width: 425px) {
-    .cover__subtitle {
-        max-width: 288px;
-        font-size: 14px;
-        line-height: 1.05;
-    }
-}

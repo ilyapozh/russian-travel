@@ -1,6 +1,5 @@
 @import url(__title/cover__title.css);
 @import url(__subtitle/cover__subtitle.css);
-@import url(__overlay/cover__overlay.css);
 @import url(__link/cover__link.css);
 @import url(__text/cover__text.css);
 
@@ -10,10 +9,8 @@
     display: flex;
     flex-direction: column;
     margin: 92px auto;
-}
-
-.cover:hover .cover__overlay {
-    opacity: 0.8;
+    position: relative;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1183px) {
@@ -31,7 +28,7 @@
 
 @media screen and (max-width: 425px) {
     .cover {
-        min-height: 200px;
         margin: 64px auto;
+        min-height: 200px;
     }
 }

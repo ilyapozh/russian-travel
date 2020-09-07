@@ -1,35 +1,9 @@
 .cover__text {
-    z-index: 10;
-    position: absolute;
-    left: 312px;
-    bottom: 245px;
+    width: fit-content;
+    margin: auto;
 }
 
 
-@media screen and (max-width: 1183px) {
-    .cover__text {
-        left: 232px;
-        bottom: 192px;
-    }
-}
 
-@media screen and (max-width: 1023px) {
-    .cover__text {
-        left: 104px;
-        bottom: 115px;
-    }
-}
 
-@media screen and (max-width: 767px) {
-    .cover__text {
-        left: 30%;
-        bottom: 35%;
-    }
-}
 
-@media screen and (max-width: 425px) {
-    .cover__text {
-        left: 16px;
-        bottom: 32px;
-    }
-}

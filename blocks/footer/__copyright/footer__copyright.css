@@ -2,4 +2,13 @@
     margin: 0;
     font-size: 14px;
     line-height: 1.05;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        justify-content: flex-start;
+    }
 }
